@@ -1,0 +1,44 @@
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+    width: 45px!important; height: 44px!important;
+	left: 147px;
+	background: url(../img/arrows.png) top left;
+}
+
+.bx-wrapper .bx-next {
+    width: 46px!important; height: 46px!important;
+	right: 147px;
+	background: url(../img/arrows.png) top right;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 60%;
+	margin-top: -16px;
+	width: 58px;
+	height: 48px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+

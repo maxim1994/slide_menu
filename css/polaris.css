@@ -1,0 +1,53 @@
+/* iCheck.js Polaris skin
+----------------------------------- */
+.icheckbox_polaris,
+.iradio_polaris {
+    display: block;
+    margin: -2px 7px 0 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/polaris.png) no-repeat;
+    border: none;
+    cursor: pointer;    
+}
+
+.icheckbox_polaris,
+.icheckbox_polaris.static:hover {
+    background-position: 0 0;
+}
+    .icheckbox_polaris.hover,
+    .icheckbox_polaris:hover {
+        background-position: 0px 0px;
+    }
+    .icheckbox_polaris.checked {
+        background-position: top right;
+    }
+    .icheckbox_polaris.disabled {
+        background-position: top right;
+        cursor: default;
+    }
+    .icheckbox_polaris.checked.disabled {
+        background-position: top right;
+    }
+
+.iradio_polaris,
+.iradio_polaris.static:hover {
+    background-position: 0px 0px;
+    
+}
+    .iradio_polaris.hover,
+    .iradio_polaris:hover {
+        background-position: top right;
+    }
+    .iradio_polaris.checked {
+        background-position: 0px 0px;
+    }
+    .iradio_polaris.disabled {
+        background-position: top right;
+        cursor: default;
+    }
+    .iradio_polaris.checked.disabled {
+        background-position: top right;
+        width: 20px;
+    }
