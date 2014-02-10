@@ -350,9 +350,8 @@ ul.sub{
     color: #ffffff;
 }
 /*------------slider-----------*/
-.wrapper .header .b-1 .slise .fo1{
+.fo1{
     position: relative;
-    z-index: 9999;
     width: 1262px; height: 576px;
     background: url(../img/headbg.jpg) no-repeat;
     
